@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Online Book Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book"></i>Bookland</a>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#featured">Featured</a>
+                <a href="#arrivals">Arrivals</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+
+        <nav class="bottom-navbar">
+            <a href="#home" class="fas fa-home"></a>
+            <a href="#featured" class="fas fa-list"></a>
+            <a href="#arrivals" class="fas fa-tags"></a>
+            <a href="#review" class="fas fa-comments"></a>
+            <a href="#contact" class="fas fa-blog"></a>
+        </nav>
+
+        <div class="login-form-container">
+            <div id="close-login-btn" class="fas fa-times"></div>
+            <form action=" ">
+                <h3>Sign in</h3>
+                <span>Username</span>
+                <input type="email" name="" class="box" placeholder="Enter your Email" id="">
+                <span>Password</span>
+                <input type="password" name="" class="box" placeholder="Enter your Password" id="">
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+                <p>forget password..? <a href="#">Click here</a></p>
+                <p>don't have an account..? <a href="#">Create one</a></p>
+            </form>
+        </div>
+
+        <section class="home" id="home">
+            <div class="row">
+                <div class="content">
+                    <h3>Upto 75% off</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste temporibus eos nesciunt deserunt at vitae eaque rem autem reprehenderit atque, sint molestias ex labore cumque quaerat. Totam, possimus? Maiores, temporibus.</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+                <div class="books-slider">
+                    <div class="wraper">
+                        <a href="#"><img src="./Images/1.jpg" alt=""></a>
+                        <a href="#"><img src="./Images/2.jpeg" alt=""></a>
+                        <a href="#"><img src="./Images/3.jpg" alt=""></a>
+                        <a href="#"><img src="./Images/8.jpg" alt=""></a>
+                        <a href="#"><img src="./Images/5.jpeg" alt=""></a>
+                        <a href="#"><img src="./Images/6.jpg" alt=""></a>
+                    </div>
+                    <!-- <img src="./Images/stands.png" class="stand" alt=""> -->
+                </div>
+            </div>
+        </section>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
